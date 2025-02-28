@@ -47,13 +47,12 @@ ul li a:hover{
     border: 2px solid black;
     margin-right: 30%;
 }
-/* .image {
+.image{
     display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically if parent has height */
-    /* width: 100%; /* Ensures full width */
-    /* margin: 20px 0; Adds spacing around */ */
-/* } */ */
+    justify-content: center;
+    margin: 20px;
+    justify-content: center;
+}
 
 /* Paragraph */
 p{
@@ -62,24 +61,4 @@ p{
     margin: 20px;
     padding: 25px;
     background-color: rgb(178, 249, 255);
-}
-/* .image1 img {
-    display: block;
-    margin: auto;
-    max-width: 100%; /* Prevents overflow */
-    /* height: auto; */
-/* } */ */
-.image {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically if parent has height */
-    width: 100%; /* Ensures full width */
-    margin: 20px 0; /* Adds spacing around */
-}
-
-.image img {
-    display: block;
-    margin: auto;
-    max-width: 100%;
-    height: auto;
 }
