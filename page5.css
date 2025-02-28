@@ -1,0 +1,85 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* NavBar*/
+ul{
+    list-style: none;
+    background-color: aquamarine;
+    height: 30px;
+    text-align: center;
+    
+}
+ul li{
+    display: inline;
+    padding: 5px;
+
+}
+ul li a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    padding: 13px 16px;
+    margin-top: 50%;
+}
+ul li a:hover{
+    background-color: bisque;
+}
+
+/* Image */
+.own{
+    margin: auto;
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 30%;
+}
+.own2{
+    margin: auto;
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 30%;
+}
+/* .image {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically if parent has height */
+    /* width: 100%; /* Ensures full width */
+    /* margin: 20px 0; Adds spacing around */ */
+/* } */ */
+
+/* Paragraph */
+p{
+    color: black;
+    font-size: 1.1rem;
+    margin: 20px;
+    padding: 25px;
+    background-color: rgb(178, 249, 255);
+}
+/* .image1 img {
+    display: block;
+    margin: auto;
+    max-width: 100%; /* Prevents overflow */
+    /* height: auto; */
+/* } */ */
+.image {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically if parent has height */
+    width: 100%; /* Ensures full width */
+    margin: 20px 0; /* Adds spacing around */
+}
+
+.image img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
